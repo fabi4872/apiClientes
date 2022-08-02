@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1bEBTMXyqEHMklhY+pwcefNG8ld4QNhllR+qLCog8GWnL1IJ6Cw8WjeJGgYAxWu9x1mlL3PatQD5oSSvSsP1LQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fabi4\\source\\repos\\ApiAbmClientes\\ApiAbmClientes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fabi4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}
