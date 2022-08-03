@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fabi4\\source\\repos\\ApiAbmClientes\\ApiAbmClientes.csproj": {}
+    "F:\\apiClientes\\ApiAbmClientes\\ApiAbmClientes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fabi4\\source\\repos\\ApiAbmClientes\\ApiAbmClientes.csproj": {
+    "F:\\apiClientes\\ApiAbmClientes\\ApiAbmClientes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fabi4\\source\\repos\\ApiAbmClientes\\ApiAbmClientes.csproj",
+        "projectUniqueName": "F:\\apiClientes\\ApiAbmClientes\\ApiAbmClientes.csproj",
         "projectName": "ApiAbmClientes",
-        "projectPath": "C:\\Users\\fabi4\\source\\repos\\ApiAbmClientes\\ApiAbmClientes.csproj",
+        "projectPath": "F:\\apiClientes\\ApiAbmClientes\\ApiAbmClientes.csproj",
         "packagesPath": "C:\\Users\\fabi4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fabi4\\source\\repos\\ApiAbmClientes\\obj\\",
+        "outputPath": "F:\\apiClientes\\ApiAbmClientes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,34 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
