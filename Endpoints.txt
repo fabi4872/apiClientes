@@ -1,0 +1,45 @@
+Endpoint Insertar
+path = https://localhost:44313/api/Clientes/Insert
+{
+    "Nombres": "Fabian",
+    "Apellidos": "Salomone",
+    "FechaNacimiento": "1984-03-30 00:00:00.000",
+    "Cuit": "20-30876403-7",
+    "Domicilio": "46 2031",
+    "TelefonoCelular": "15-2213579497",
+    "Email": "fabi4872@gmail.com"
+}
+
+
+Endpoint GetAll
+path = https://localhost:44313/api/Clientes/GetAll
+
+
+Endpoint Get (Por id)
+path = https://localhost:44313/api/Clientes/Get?id=1002
+
+
+Endpoint Update
+path = https://localhost:44313/api/Clientes
+{
+    "Id": 1002,
+    "Nombres": "Fernando",
+    "Apellidos": "Salomone",
+    "FechaNacimiento": "1986-05-19 00:00:00.000",
+    "Cuit": "20-32313256-3",
+    "Domicilio": "46 2031",
+    "TelefonoCelular": "15-2216197681",
+    "Email": "fernando@gmail.com"
+}
+
+
+Endpoint Búsqueda por Substring en Nombre (Sugerencia)
+path = https://localhost:44313/api/Clientes/SearchAll?nombre=Fe
+
+
+Endpoint Búsqueda por Nombre
+path = https://localhost:44313/api/Clientes/Search?nombre=Fabian
+
+
+Endpoint Eliminar (Agregado)
+path = https://localhost:44313/api/Clientes/Delete?id=4

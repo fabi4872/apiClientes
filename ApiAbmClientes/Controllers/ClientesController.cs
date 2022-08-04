@@ -47,7 +47,7 @@ namespace ApiAbmClientes.Controllers
         }
 
 
-        // PUT: api/Clientes/5
+        // PUT: api/Clientes
         [HttpPut]
         public async Task<ActionResult<Cliente>> PutCliente(Cliente cliente)
         {
